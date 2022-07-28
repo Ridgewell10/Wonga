@@ -23,7 +23,7 @@ namespace ServiceB
 
             consumer.Received += (m, a) =>
             {
-                var body = a.Body;
+                var body = a.Body.ToArray();
                 var message = Encoding.UTF8.GetString(body);
                 try
                 {
