@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "Lenp0E+fuHEzc1l/yUbYQHU+Gu66unOarfteIux5ICLhFVDPv6PMe8St1seDHrnoLMrpnIu5hdBphavLIOgASQ==",
+  "dgSpecHash": "Qp4m1oR7zmaEIcWQcIZqLFbOBUp0lXhoPKU19zwFE6EDaRfKlo3v5x6IEDCG7bfMPHQ/2VOEMDhJfnpSg96hYA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Ridgewell\\source\\repos\\Wonga\\ServiceA\\ServiceA.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Ridgewell\\.nuget\\packages\\rabbitmq.client\\6.4.0\\rabbitmq.client.6.4.0.nupkg.sha512",
+    "C:\\Users\\Ridgewell\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\Ridgewell\\.nuget\\packages\\system.threading.channels\\4.7.1\\system.threading.channels.4.7.1.nupkg.sha512"
+  ],
   "logs": []
 }
