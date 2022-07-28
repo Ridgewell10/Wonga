@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceA", "ServiceA\Servic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceB", "ServiceB\ServiceB.csproj", "{AD6BBBB0-55FD-4576-850E-81C738F8F1DE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WongaTestProject", "WongaTestProject\WongaTestProject.csproj", "{35FF5B82-AB6D-48E6-AF2F-731216E785CA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{AD6BBBB0-55FD-4576-850E-81C738F8F1DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD6BBBB0-55FD-4576-850E-81C738F8F1DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD6BBBB0-55FD-4576-850E-81C738F8F1DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35FF5B82-AB6D-48E6-AF2F-731216E785CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35FF5B82-AB6D-48E6-AF2F-731216E785CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35FF5B82-AB6D-48E6-AF2F-731216E785CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35FF5B82-AB6D-48E6-AF2F-731216E785CA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

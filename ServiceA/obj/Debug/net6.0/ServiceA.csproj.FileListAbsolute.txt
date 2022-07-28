@@ -1,0 +1,17 @@
+C:\Users\Ridgewell\source\repos\Wonga\ServiceA\bin\Debug\net6.0\ServiceA.exe
+C:\Users\Ridgewell\source\repos\Wonga\ServiceA\bin\Debug\net6.0\ServiceA.deps.json
+C:\Users\Ridgewell\source\repos\Wonga\ServiceA\bin\Debug\net6.0\ServiceA.runtimeconfig.json
+C:\Users\Ridgewell\source\repos\Wonga\ServiceA\bin\Debug\net6.0\ServiceA.dll
+C:\Users\Ridgewell\source\repos\Wonga\ServiceA\bin\Debug\net6.0\ServiceA.pdb
+C:\Users\Ridgewell\source\repos\Wonga\ServiceA\bin\Debug\net6.0\RabbitMQ.Client.dll
+C:\Users\Ridgewell\source\repos\Wonga\ServiceA\obj\Debug\net6.0\ServiceA.csproj.AssemblyReference.cache
+C:\Users\Ridgewell\source\repos\Wonga\ServiceA\obj\Debug\net6.0\ServiceA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ridgewell\source\repos\Wonga\ServiceA\obj\Debug\net6.0\ServiceA.AssemblyInfoInputs.cache
+C:\Users\Ridgewell\source\repos\Wonga\ServiceA\obj\Debug\net6.0\ServiceA.AssemblyInfo.cs
+C:\Users\Ridgewell\source\repos\Wonga\ServiceA\obj\Debug\net6.0\ServiceA.csproj.CoreCompileInputs.cache
+C:\Users\Ridgewell\source\repos\Wonga\ServiceA\obj\Debug\net6.0\ServiceA.csproj.CopyComplete
+C:\Users\Ridgewell\source\repos\Wonga\ServiceA\obj\Debug\net6.0\ServiceA.dll
+C:\Users\Ridgewell\source\repos\Wonga\ServiceA\obj\Debug\net6.0\refint\ServiceA.dll
+C:\Users\Ridgewell\source\repos\Wonga\ServiceA\obj\Debug\net6.0\ServiceA.pdb
+C:\Users\Ridgewell\source\repos\Wonga\ServiceA\obj\Debug\net6.0\ServiceA.genruntimeconfig.cache
+C:\Users\Ridgewell\source\repos\Wonga\ServiceA\obj\Debug\net6.0\ref\ServiceA.dll

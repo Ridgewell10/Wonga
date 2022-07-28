@@ -2,7 +2,7 @@
 {
     class Program
     {
-        private const string QUEUE_NAME = "myQueue";
+        private const string QUEUE_NAME = "wongaQueue";
         static void Main(string[] args)
         {
             string name = string.Empty;

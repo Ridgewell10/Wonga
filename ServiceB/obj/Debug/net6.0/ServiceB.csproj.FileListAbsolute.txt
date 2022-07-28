@@ -1,0 +1,5 @@
+C:\Users\Ridgewell\source\repos\Wonga\ServiceB\obj\Debug\net6.0\ServiceB.csproj.AssemblyReference.cache
+C:\Users\Ridgewell\source\repos\Wonga\ServiceB\obj\Debug\net6.0\ServiceB.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ridgewell\source\repos\Wonga\ServiceB\obj\Debug\net6.0\ServiceB.AssemblyInfoInputs.cache
+C:\Users\Ridgewell\source\repos\Wonga\ServiceB\obj\Debug\net6.0\ServiceB.AssemblyInfo.cs
+C:\Users\Ridgewell\source\repos\Wonga\ServiceB\obj\Debug\net6.0\ServiceB.csproj.CoreCompileInputs.cache
