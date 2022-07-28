@@ -23,7 +23,7 @@ namespace WongaTestProject
         }
 
         /// <summary>
-        /// Test with a random string
+        /// Test with a invalid random  string
         /// </summary>
         [Fact]
         public void InvalidMessage()
@@ -38,7 +38,7 @@ namespace WongaTestProject
         }
 
         /// <summary>
-        /// Test with a string where the name is ommitted
+        /// Test with a string where the name is null
         /// </summary>
         [Fact]
         public void NoNameMessage()
