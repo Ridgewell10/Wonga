@@ -15,3 +15,8 @@ C:\Users\Ridgewell\source\repos\Wonga\ServiceA\obj\Debug\net6.0\refint\ServiceA.
 C:\Users\Ridgewell\source\repos\Wonga\ServiceA\obj\Debug\net6.0\ServiceA.pdb
 C:\Users\Ridgewell\source\repos\Wonga\ServiceA\obj\Debug\net6.0\ServiceA.genruntimeconfig.cache
 C:\Users\Ridgewell\source\repos\Wonga\ServiceA\obj\Debug\net6.0\ref\ServiceA.dll
+C:\Users\Ridgewell\source\repos\Wonga\ServiceA\bin\Debug\net6.0\ServiceB.deps.json
+C:\Users\Ridgewell\source\repos\Wonga\ServiceA\bin\Debug\net6.0\ServiceB.runtimeconfig.json
+C:\Users\Ridgewell\source\repos\Wonga\ServiceA\bin\Debug\net6.0\ServiceB.exe
+C:\Users\Ridgewell\source\repos\Wonga\ServiceA\bin\Debug\net6.0\ServiceB.dll
+C:\Users\Ridgewell\source\repos\Wonga\ServiceA\bin\Debug\net6.0\ServiceB.pdb

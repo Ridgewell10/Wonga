@@ -32,6 +32,19 @@
         "runtime": {
           "lib/netcoreapp3.0/System.Threading.Channels.dll": {}
         }
+      },
+      "ServiceB/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "RabbitMQ.Client": "6.4.0"
+        },
+        "compile": {
+          "bin/placeholder/ServiceB.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ServiceB.dll": {}
+        }
       }
     }
   },
@@ -98,11 +111,17 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "ServiceB/1.0.0": {
+      "type": "project",
+      "path": "../ServiceB/ServiceB.csproj",
+      "msbuildProject": "../ServiceB/ServiceB.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "RabbitMQ.Client >= 6.4.0"
+      "RabbitMQ.Client >= 6.4.0",
+      "ServiceB >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -131,7 +150,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Ridgewell\\source\\repos\\Wonga\\ServiceB\\ServiceB.csproj": {
+              "projectPath": "C:\\Users\\Ridgewell\\source\\repos\\Wonga\\ServiceB\\ServiceB.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -6,13 +6,12 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "ServiceA/1.0.0": {
+      "ServiceB/1.0.0": {
         "dependencies": {
-          "RabbitMQ.Client": "6.4.0",
-          "ServiceB": "1.0.0"
+          "RabbitMQ.Client": "6.4.0"
         },
         "runtime": {
-          "ServiceA.dll": {}
+          "ServiceB.dll": {}
         }
       },
       "RabbitMQ.Client/6.4.0": {
@@ -28,19 +27,11 @@
         }
       },
       "System.Memory/4.5.4": {},
-      "System.Threading.Channels/4.7.1": {},
-      "ServiceB/1.0.0": {
-        "dependencies": {
-          "RabbitMQ.Client": "6.4.0"
-        },
-        "runtime": {
-          "ServiceB.dll": {}
-        }
-      }
+      "System.Threading.Channels/4.7.1": {}
     }
   },
   "libraries": {
-    "ServiceA/1.0.0": {
+    "ServiceB/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -65,11 +56,6 @@
       "sha512": "sha512-6akRtHK/wab3246t4p5v3HQrtQk8LboOt5T4dtpNgsp3zvDeM4/Gx8V12t0h+c/W9/enUrilk8n6EQqdQorZAA==",
       "path": "system.threading.channels/4.7.1",
       "hashPath": "system.threading.channels.4.7.1.nupkg.sha512"
-    },
-    "ServiceB/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
     }
   }
 }
