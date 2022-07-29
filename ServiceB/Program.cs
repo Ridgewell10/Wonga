@@ -12,7 +12,7 @@ namespace ServiceB
 
         static void Main(string[] args)
         {
-            var factory = new ConnectionFactory() { HostName = HOST_NAME };
+            ConnectionFactory? factory = new ConnectionFactory() { HostName = HOST_NAME };
             using var connection = factory.CreateConnection();
             using var channel = connection.CreateModel();
             channel.QueueDeclare(QUEUE_NAME, false, false, false, null);

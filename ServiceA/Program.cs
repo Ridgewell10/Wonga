@@ -5,7 +5,7 @@
         private const string QUEUE_NAME = "wongaQueue";
         static void Main(string[] args)
         {
-            Publisher queuePublisher = new(QUEUE_NAME);
+            PublisherClient queuePublisher = new(QUEUE_NAME);
             string name;
             do
             {

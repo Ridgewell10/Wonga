@@ -1,6 +1,6 @@
 namespace WongaTestProject
 {
-    public class WongaGlobalTest
+    public class WongaTests
     {
 
         #region IsValidMessage Tests
