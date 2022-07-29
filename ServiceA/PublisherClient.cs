@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.Extensions.Logging;
 using RabbitMQ.Client;
 
 namespace ServiceA
@@ -12,8 +13,9 @@ namespace ServiceA
     /// <summary>
     /// Used to publish to wongaQueue
     /// </summary>
-    public class PublisherClient
+    public class PublisherClient : IDisposable
     {
+        private readonly ILogger _logger;
         public bool IsConnected { get; private set; }
 
         private IConnection? _connection;
@@ -46,6 +48,9 @@ namespace ServiceA
                 var factory = new ConnectionFactory() { HostName = HOST_NAME };
 
                 _connection = factory.CreateConnection();
+
+                _logger.LogTrace("Starting MQ Feed Host:{factory}, Port:{port}, VHost:{virtualHost}",factory);
+
                 _connection.ConnectionShutdown += ConnectionShutDown;
 
                 _channel = _connection.CreateModel();

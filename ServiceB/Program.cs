@@ -1,4 +1,5 @@
 ﻿using System.Text;
+using Microsoft.Extensions.Logging;
 using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
 
@@ -12,6 +13,7 @@ namespace ServiceB
 
         static void Main(string[] args)
         {
+
             ConnectionFactory? factory = new ConnectionFactory() { HostName = HOST_NAME };
             using var connection = factory.CreateConnection();
             using var channel = connection.CreateModel();
@@ -32,9 +34,12 @@ namespace ServiceB
                     Console.WriteLine($"Invalid message: {message}");
                 }
             };
-            channel.BasicConsume(QUEUE_NAME, true, consumer);
+
+            channel.BasicConsume(QUEUE_NAME, autoAck: true, consumer);
+
             Console.ReadLine();
         }
+        
     }
 }
 
