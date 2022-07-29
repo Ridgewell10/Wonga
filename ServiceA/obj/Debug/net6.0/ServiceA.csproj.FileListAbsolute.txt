@@ -20,3 +20,4 @@ C:\Users\Ridgewell\source\repos\Wonga\ServiceA\bin\Debug\net6.0\ServiceB.runtime
 C:\Users\Ridgewell\source\repos\Wonga\ServiceA\bin\Debug\net6.0\ServiceB.exe
 C:\Users\Ridgewell\source\repos\Wonga\ServiceA\bin\Debug\net6.0\ServiceB.dll
 C:\Users\Ridgewell\source\repos\Wonga\ServiceA\bin\Debug\net6.0\ServiceB.pdb
+C:\Users\Ridgewell\source\repos\Wonga\ServiceA\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll

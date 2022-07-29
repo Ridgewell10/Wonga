@@ -32,15 +32,13 @@ namespace ServiceA
         /// <param name="message">The message to be published</param>
         public void PublishMessage(string message)
         {
-            using (var connection = connectionFactory.CreateConnection())
-            using (var channel = connection.CreateModel())
-            {
-                channel.QueueDeclare(queueName, false, false, false, null);
+            using var connection = connectionFactory.CreateConnection();
+            using var channel = connection.CreateModel();
+            channel.QueueDeclare(queueName, false, false, false, null);
 
-                var body = Encoding.UTF8.GetBytes(message);
+            var body = Encoding.UTF8.GetBytes(message);
 
-                channel.BasicPublish("", queueName, null, body);
-            }
+            channel.BasicPublish("", queueName, null, body);
         }
     }
 }
