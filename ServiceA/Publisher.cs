@@ -8,7 +8,7 @@ using RabbitMQ.Client;
 namespace ServiceA
 {
     /// <summary>
-    /// Used to publish to RabbitMQ Queue
+    /// Used to publish to wongaQueue
     /// </summary>
     public class Publisher
     {
@@ -17,7 +17,7 @@ namespace ServiceA
         private const string HOST_NAME = "localhost";
 
         /// <summary>
-        /// Constructor for QueueuPublisher object
+        /// Constructor for Publisher 
         /// </summary>
         /// <param name="queueName">The name of the Queue that object should publish to</param>
         public Publisher(string queueName)
@@ -27,7 +27,7 @@ namespace ServiceA
         }
 
         /// <summary>
-        /// Publish a message to a queue
+        /// Publish a message to wongaQueue
         /// </summary>
         /// <param name="message">The message to be published</param>
         public void PublishMessage(string message)

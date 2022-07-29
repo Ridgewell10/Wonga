@@ -1,13 +1,9 @@
 ﻿using Microsoft.Extensions.Logging;
 using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
-using ServiceA.Extensions;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Security.Authentication;
 using System.Text;
-using System.Threading.Tasks;
+using Utils;
 
 namespace ServiceA
 {

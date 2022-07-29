@@ -5,8 +5,8 @@
         private const string QUEUE_NAME = "wongaQueue";
         static void Main(string[] args)
         {
-            string name = string.Empty;
-            Publisher queuePublisher = new Publisher(QUEUE_NAME);
+            Publisher queuePublisher = new(QUEUE_NAME);
+            string name;
             do
             {
                 Console.Write("Enter a name ['q' to quit]: ");

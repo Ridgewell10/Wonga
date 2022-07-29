@@ -1,11 +1,9 @@
-﻿using System;
-using System.Text;
-using System.Text.RegularExpressions;
+﻿using System.Text;
 using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
 
 
-namespace ServiceB 
+namespace ServiceB
 {
     public class Program
     {

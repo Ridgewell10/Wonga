@@ -97,3 +97,10 @@ C:\Users\Ridgewell\source\repos\Wonga\WongaTestProject\obj\Debug\net6.0\refint\W
 C:\Users\Ridgewell\source\repos\Wonga\WongaTestProject\obj\Debug\net6.0\WongaTestProject.pdb
 C:\Users\Ridgewell\source\repos\Wonga\WongaTestProject\obj\Debug\net6.0\WongaTestProject.genruntimeconfig.cache
 C:\Users\Ridgewell\source\repos\Wonga\WongaTestProject\obj\Debug\net6.0\ref\WongaTestProject.dll
+C:\Users\Ridgewell\source\repos\Wonga\WongaTestProject\bin\Debug\net6.0\CoverletSourceRootsMapping
+C:\Users\Ridgewell\source\repos\Wonga\WongaTestProject\bin\Debug\net6.0\ServiceB.deps.json
+C:\Users\Ridgewell\source\repos\Wonga\WongaTestProject\bin\Debug\net6.0\ServiceB.runtimeconfig.json
+C:\Users\Ridgewell\source\repos\Wonga\WongaTestProject\bin\Debug\net6.0\ServiceB.exe
+C:\Users\Ridgewell\source\repos\Wonga\WongaTestProject\bin\Debug\net6.0\RabbitMQ.Client.dll
+C:\Users\Ridgewell\source\repos\Wonga\WongaTestProject\bin\Debug\net6.0\ServiceB.dll
+C:\Users\Ridgewell\source\repos\Wonga\WongaTestProject\bin\Debug\net6.0\ServiceB.pdb

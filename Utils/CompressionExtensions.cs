@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO.Compression;
-using System.Linq;
+﻿using System.IO.Compression;
 using System.Text;
-using System.Threading.Tasks;
 
-namespace ServiceA.Extensions
+namespace Utils
 {
     public static class CompressionExtensions
     {

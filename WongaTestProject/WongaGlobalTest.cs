@@ -1,5 +1,3 @@
-using ServiceB;
-
 namespace WongaTestProject
 {
     public class WongaGlobalTest
