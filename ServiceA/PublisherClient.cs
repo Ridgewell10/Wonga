@@ -15,7 +15,6 @@ namespace ServiceA
     /// </summary>
     public class PublisherClient : IDisposable
     {
-        private readonly ILogger _logger;
         public bool IsConnected { get; private set; }
 
         private IConnection? _connection;
@@ -48,8 +47,6 @@ namespace ServiceA
                 var factory = new ConnectionFactory() { HostName = HOST_NAME };
 
                 _connection = factory.CreateConnection();
-
-                _logger.LogTrace("Starting MQ Feed Host:{factory}, Port:{port}, VHost:{virtualHost}",factory);
 
                 _connection.ConnectionShutdown += ConnectionShutDown;
 

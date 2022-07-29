@@ -104,3 +104,4 @@ C:\Users\Ridgewell\source\repos\Wonga\WongaTestProject\bin\Debug\net6.0\ServiceB
 C:\Users\Ridgewell\source\repos\Wonga\WongaTestProject\bin\Debug\net6.0\RabbitMQ.Client.dll
 C:\Users\Ridgewell\source\repos\Wonga\WongaTestProject\bin\Debug\net6.0\ServiceB.dll
 C:\Users\Ridgewell\source\repos\Wonga\WongaTestProject\bin\Debug\net6.0\ServiceB.pdb
+C:\Users\Ridgewell\source\repos\Wonga\WongaTestProject\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
